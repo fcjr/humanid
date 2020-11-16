@@ -10,7 +10,13 @@ humanid provides human readable unique(-ish) ids for consumer facing use.
 ## Usage
 
 ```go
+// default separator: '-'
 id := humanid.New()
+fmt.Println(id)
+
+// custom separator
+hid := humanid.NewProvider("_")
+fmt.Println(hid.New())
 ```
 
 [doc-img]: https://img.shields.io/static/v1?label=godoc&message=reference&color=blue

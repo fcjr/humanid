@@ -2,8 +2,12 @@
 //
 //  Usage
 //
-//  Default Provider:
+// default separator: '-'
+// id := humanid.New()
+// fmt.Println(id)
 //
-//  id := humanid.New()
+// custom separator
+// hid := humanid.NewProvider("_")
+// fmt.Println(hid.New())
 //
 package humanid //import "github.com/fcjr/humanid"
