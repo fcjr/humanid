@@ -21,11 +21,11 @@ fmt.Println(hid.New())
 
 [doc-img]: https://img.shields.io/static/v1?label=godoc&message=reference&color=blue
 [doc]: https://pkg.go.dev/github.com/fcjr/humanid?tab=doc
-[ci-img]: https://travis-ci.org/fcjr/humanid.svg?branch=master
+[ci-img]: https://travis-ci.org/fcjr/humanid.svg?branch=main
 [ci]: https://travis-ci.org/fcjr/humanid
 [report-card-img]: https://goreportcard.com/badge/github.com/fcjr/humanid
 [report-card]: https://goreportcard.com/report/github.com/fcjr/humanid
 [golangci-img]: https://golangci.com/badges/github.com/fcjr/humanid.svg
 [golangci]: https://golangci.com/r/github.com/fcjr/humanid
-[cov-img]: https://codecov.io/gh/fcjr/humanid/branch/master/graph/badge.svg
+[cov-img]: https://codecov.io/gh/fcjr/humanid/branch/main/graph/badge.svg
 [cov]: https://codecov.io/gh/fcjr/humanid
